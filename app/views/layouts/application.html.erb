@@ -7,9 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<nav class="navbar navbar-inverse" role="navigation">
-  ...
+<div class="container">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <a class="navbar-brand" href="#">Brand</a>
 </nav>
 
 <div class="page-header">
@@ -41,27 +41,38 @@
   </div>
 </div>
 
-
-
+<div class="row">
+  <div class="col-md-6">This is some text that belongs in a column. This is some text that belongs in a column </div>
+  <div class="col-md-6">This is some text that belongs in a column. This is some text that belongs in a column</div>
+</div>
+<div class="well">Look I'm in a well!</div>
+<br/>
+<br/>
+<div class="row">
+  <div class="col-md-4">This is some text that belongs in a column. This is some text that belongs in a column</div>
+  <div class="col-md-4">This is some text that belongs in a column. This is some text that belongs in a column</div>
+  <div class="col-md-4">This is some text that belongs in a column. This is some text that belongs in a column</div>
+</div>
   <!-- Table -->
-  <table class="table">
+  <table class="table table-bordered table-striped">
 
-          <thead>
+        <thead>
           <tr>
-            <th>#</th>
             <th>Name</th>
             <th>Age</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>1</td>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td>Joe Example</td>
+            <td>34</td>
+          </tr>
+          <tr>
+            <td>Sue Example</td>
+            <td>27</td>
           </tr>
   </table>
-
+</div>
 
 
 
