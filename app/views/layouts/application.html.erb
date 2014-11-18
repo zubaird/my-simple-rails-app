@@ -7,74 +7,8 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div class="container">
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <a class="navbar-brand" href="#">Brand</a>
-</nav>
 
-<div class="page-header">
-  <h1>A subtitle</h1>
-</div>
-
-<ul class="nav nav-tabs">
-  <li role="presentation" class="active"><a href="#">Home</a></li>
-  <li role="presentation"><a href="#">Profile</a></li>
-  <li role="presentation"><a href="#">Messages</a></li>
-</ul>
-<br/>
-<ol class="breadcrumb">
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Categories</a></li>
-  <li><a href="#">Shoes</a></li>
-  <li class="active">Loafers</li>
-</ol>
-
-<div class="jumbotron">
-  <h1>This is some title</h1>
-  <p>and this is some lead text.</p>
-</div>
-
-<div class="panel panel-primary">
-  <div class="panel-heading">Some Panel</div>
-  <div class="panel-body">
-    This is some text.
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-md-6">This is some text that belongs in a column. This is some text that belongs in a column </div>
-  <div class="col-md-6">This is some text that belongs in a column. This is some text that belongs in a column</div>
-</div>
-<div class="well">Look I'm in a well!</div>
-<br/>
-<br/>
-<div class="row">
-  <div class="col-md-4">This is some text that belongs in a column. This is some text that belongs in a column</div>
-  <div class="col-md-4">This is some text that belongs in a column. This is some text that belongs in a column</div>
-  <div class="col-md-4">This is some text that belongs in a column. This is some text that belongs in a column</div>
-</div>
-  <!-- Table -->
-  <table class="table table-bordered table-striped">
-
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Age</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Joe Example</td>
-            <td>34</td>
-          </tr>
-          <tr>
-            <td>Sue Example</td>
-            <td>27</td>
-          </tr>
-  </table>
-</div>
-
-
+<%= yield %>
 
 </body>
 
